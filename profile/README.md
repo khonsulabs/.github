@@ -21,9 +21,9 @@ At the core of our vision are two libraries we're developing: [BonsaiDb][bonsaid
 
 The choice to develop a database in pursuit of building an MMO may seem strange. Until March 2021, [PostgreSQL](https://www.postgresql.org/) and [Redis](https://redis.io) were our intended database backends. However, as a [second contributor](https://github.com/daxpedda) joined we began to hypothesize about how to deploy a highly-available game.
 
-Deploying highly-available PostgreSQL and Redis clusters are not easy. Yet, as we began thinking about how to build a scalable architecture, we started seeing centralized database clusters as potential bottlenecks.
+Deploying highly-available PostgreSQL and Redis clusters are not easy. Our plan to minimize that stress was to have central database clusters. Yet, as we began thinking about how to build a scalable architecture, we started seeing centralized database clusters as potential bottlenecks.
 
-For a game inspired by "single-shard" universed like [EVE Online](https://www.eveonline.com/), we wanted to be able to create a highly available database for a single "star system" in [Cosmic Verge][cosmicverge]. Trying to imagine how to manage that with PostgreSQL and Redis without drastically inflating hosting costs is what drove us to consider other options.
+For a game inspired by "single-shard" universes like [EVE Online](https://www.eveonline.com/), we wanted to be able to create a highly available database for a single "star system" in [Cosmic Verge][cosmicverge]. Trying to imagine how to manage that with PostgreSQL and Redis without drastically inflating hosting costs is what drove us to consider other options.
 
 One day [@ecton][ecton] realized he knew enough about how [CouchDb](https://couchdb.apache.org/) worked that he could build something similar in Rust. Thus, BonsaiDb began with the initial vision being: a database built for Rust developers that supports a sqlite-style offline model, a single-server model with support for read replicas, and a quorum-based cluster model.
 
@@ -31,7 +31,7 @@ As we began to develop BonsaiDb's features, we started seeing the benefits of no
 
 ### Designing for Modularity
 
-We strongly believe in building for re-use. As we stated in our vision, we are prepared for the possibility that we can't make money building a game. We still strongly believe in the platform we're buliding it with, and we could see ourselves using [BonsaiDb][bonsaidb] and [Gooey](gooey) for other things than building [Cosmic Verge][cosmicverge].
+We strongly believe in building for re-use. As we stated earlier, we are prepared for the possibility that we can't make money building a game. We still strongly believe in the platform we're buliding it with, and we could see ourselves using [BonsaiDb][bonsaidb] and [Gooey](gooey) for other things than building [Cosmic Verge][cosmicverge].
 
 #### User and Permissions Management
 
@@ -46,7 +46,7 @@ We need a robust user management system for our own needs:
 - Role-Based Access Control: Define roles and groups that can be assigned to
   users that enable functionality. The permissions system is designed with
   namespaces in mind to safely enable multiple applications running atop
-  BonsaIdb.
+  BonsaiDb.
 
 #### Private and Group Messaging
 
