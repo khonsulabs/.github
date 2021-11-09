@@ -1,6 +1,6 @@
 ## Open-source Licenses
 
-This project, like all projects from [Khonsu Labs](https://khonsulabs.com/), are
+This project, like all projects from [Khonsu Labs]($HOMEPAGE$), are
 open-source. This repository is available under the [MIT License](./LICENSE-MIT)
 or the [Apache License 2.0](./LICENSE-APACHE).
 
