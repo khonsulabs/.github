@@ -1,8 +1,8 @@
 # What is Khonsu Labs?
 
 Khonsu Labs is the passion-project of [@ecton][ecton] (the author of this
-profile). I originall started Khonsu Labs with the goal of developing [Cosmic
-Verge][cosmicverge], but am currently focused on building [BonsaiDb][bonsaidb].
+profile). I originally started Khonsu Labs with the goal of developing [Cosmic
+Verge][cosmicverge] but am currently focused on building [BonsaiDb][bonsaidb].
 Everything Khonsu Labs does is open-source under both the MIT License and the
 Apache License 2.0.
 
@@ -12,8 +12,8 @@ best language for general purpose application development.
 
 ## Interacting with us
 
-- **Github Issues**: If you're wanting to request a feature or file an issue, we
-  are using Github Issues to manage [our
+- **GitHub Issues**: If you're wanting to request a feature or file an issue, we
+  are using GitHub Issues to manage [our
   roadmap](https://roadmap.khonsulabs.com/).
 - [**Discord**](https://discord.khonsulabs.com): We have a Discord server where
   we chat, co-work, and occasionally play games.
