@@ -20,6 +20,10 @@ application development.
 - **GitHub Issues/Discussions**: If you're wanting to request a feature, file an
   issue, or ask a question, the GitHub repository for the project is a great
   place to start.
+- [**Zulip**](https://zulip.khonsulabs.com): Zulip is sponsoring a community
+  instance for Khonsu Labs's open-source projects. This server is less populated
+  than the Discord server because it's newer, but [@ecton][ecton] prefers
+  discussions on Zulip over Discord.
 - [**Discord**](https://discord.khonsulabs.com): We have a Discord server where
   we chat, co-work, and occasionally play games.
 - [**Discourse Forums**](https://community.khonsulabs.com/): Our community
